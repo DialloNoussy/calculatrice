@@ -1,0 +1,20 @@
+body{
+    background: url(https://unsplash.it/1500/1000?image=881&blur=5);
+}
+div{
+    text-align: center;
+    padding: 60px;
+}
+h1{
+    text-align: center;
+    background-color: pink;
+}
+div{
+    display: table-row-group;
+}
+.signe{
+    border: 7px solid red;
+}
+.btn55{
+    display: grid;
+}
