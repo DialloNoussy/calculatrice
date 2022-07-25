@@ -1,20 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body{
-    background: url(https://unsplash.it/1500/1000?image=881&blur=5);
+    max-width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    font-family: sans-serif;
+    display: flex;
+    background:url(https://picturedensity.com/wp-content/uploads/2019/10/math.jpg)
 }
-div{
+p {
     text-align: center;
-    padding: 60px;
+    display: flex;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    font-size: 50px;
+    font-style: italic;
+    padding: 100px;
 }
-h1{
-    text-align: center;
-    background-color: pink;
+    
+.calculatrice{
+    display: flex;
+    flex-direction: column;
+    display: flex;
 }
-div{
-    display: table-row-group;
+.screen{
+    background-color:rgb(198, 237, 258);
+    width: 100%;
+    height: 90px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 5px;
+    font-size: 25px;
 }
-.signe{
-    border: 7px solid red;
-}
-.btn55{
+.touches{
     display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(5, 50px);
+    grid-gap: 7px;
+    background-color: rgb(210, 30, 174);
 }
