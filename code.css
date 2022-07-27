@@ -38,7 +38,9 @@ body {
 }
 
 .ecran {
+    overflow: hidden;
     width: 100%;
+    max-width:222px;
     height: 100px;
     background-color: rgb(198, 237, 255);
     margin-bottom: 10px;
@@ -48,6 +50,7 @@ body {
     align-items: flex-end;
     padding: 5px;
     font-size: 25px;
+        word-break: break-word;
 }
 
 .touches {
@@ -83,4 +86,8 @@ button[data-key="13"] {
     font-weight: bold;
     color: white;
     font-size: 35px;
+}
+
+.egal{
+    width: 100%;
 }
